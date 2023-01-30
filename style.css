@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   body{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sarala', sans-serif;
+    
+   }
+
+   h1 {
+    font-size: 26px
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    padding-left: 14px;
+    font-size: 18px
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #2081C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px
+    box-shadow: 0 3px 20px #000;
+}
+
+.main-container{
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px #000;
+    margin: 25px;
+    padding-bottom: 24px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-container h1 {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foto{
+
+    border-radius: 19px;
+    width: 55%;
+}
+
+
+ul, ol {
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 10px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    
+}
+
+
